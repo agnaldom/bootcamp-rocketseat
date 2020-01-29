@@ -11,6 +11,13 @@ server.use(express.json())
 // CRUD - Create, Read, Update, Delete
 const users = ['Agnaldo', 'Claudio', 'Victor'];
 
+server.use((req, res, next) => {
+    console.log('A requisicao foi chamada!');
+    console.log(`Método: ${req.method}: URL: ${req.url}: `)
+
+    return next();
+})
+
 server.get('/users', (req, res) => {
     return res.json(users);
 })
