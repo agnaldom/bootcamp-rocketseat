@@ -1,6 +1,7 @@
 # Projeto GOBARBER
 
 ## Dependencias
+* jsonwebtoken
 
 ## Docker
 
