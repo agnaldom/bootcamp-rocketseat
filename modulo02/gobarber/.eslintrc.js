@@ -15,7 +15,7 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": "error",
-    "class-metrodos-use-this": "off",
+    "class-methodos-use-this": "off",
     "no-param-reassign": "off",
     "camelcase": "off",
     "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
